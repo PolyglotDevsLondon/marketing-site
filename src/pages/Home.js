@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Image from '../components/image'
 
-const IndexPage = () => (
+const HomePage = () => (
   <Layout>
     <h1>polyglot</h1>
     <p>Welcome to your new Gatsby site.</p>
@@ -12,8 +12,8 @@ const IndexPage = () => (
     <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
       <Image />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Link to='/page-2/'>Go to page 2</Link>
   </Layout>
 )
 
-export default IndexPage
+export default HomePage
