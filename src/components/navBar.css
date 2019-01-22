@@ -1,0 +1,19 @@
+.navBar {
+  background-color: #eee;
+}
+
+.navBarButtons {
+  float: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: green;
+}
+
+.navButton {
+  padding: 10px;
+}
