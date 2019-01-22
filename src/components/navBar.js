@@ -6,9 +6,9 @@ import NavButton from './navButton'
 const NavBar = props =>
   <div className='navBar'>
     <div className='navBarButtons'>
-      <NavButton page='Home' />
-      <NavButton page='About' />
-      <NavButton page='Contact' />
+      <NavButton page='home' />
+      <NavButton page='about' />
+      <NavButton page='contact' />
     </div>
   </div>
 
