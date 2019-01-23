@@ -1,14 +1,9 @@
-# marketing-site
-Polyglot Devs marketing site
-
-Set up -
-
-  install gatsby - npm i gatsby
-  npm install
-  run dev server - gatsby develop
+# Polyglot Devs
+Polyglot Devs site using Gatsby
 
 
-sass -
 
-  Sass plugin installed
-  
+# Dev Setup
+1. Install all dependencies using [npm](https://www.npmjs.com/get-npm) `npm i`
+2. Run the site locally with `npm run start`  and for dev run `npm run dev`
+
