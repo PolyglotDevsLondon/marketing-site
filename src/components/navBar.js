@@ -1,7 +1,8 @@
 import React from 'react'
-import './navBar.scss'
 
 import NavButton from './navButton'
+
+import './navBar.scss'
 
 const NavBar = props =>
   <div className='navBar'>

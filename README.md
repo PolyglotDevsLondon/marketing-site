@@ -6,3 +6,9 @@ Set up -
   install gatsby - npm i gatsby
   npm install
   run dev server - gatsby develop
+
+
+sass -
+
+  Sass plugin installed
+  

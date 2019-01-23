@@ -1,3 +1,6 @@
+@import '../variables';
+
+
 .navBar {
   float: right;
 
@@ -10,11 +13,8 @@
     }
 
     a:hover{
-      background-color: #eee;
+      background-color: $grey;
+      color: $black;
     }
-
-    .navButton {
-    }
-
   }
 }
