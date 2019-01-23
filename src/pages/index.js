@@ -3,16 +3,16 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import Image from '../components/image'
+import './index.css' 
 
 const IndexPage = () => (
   <Layout>
-    <h1>polyglot</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+  <div className="main-content">
+    <div className="students"><h2>Students</h2></div>
+    <div className="mentors"><h2>Mentors</h2></div>
+  </div>
+
+
   </Layout>
 )
 

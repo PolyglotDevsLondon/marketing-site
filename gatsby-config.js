@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Polyglot Devs',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

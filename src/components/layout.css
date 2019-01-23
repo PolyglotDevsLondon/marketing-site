@@ -566,6 +566,7 @@ abbr[title] {
   cursor: help;
   text-decoration: none;
 }
+
 thead {
   text-align: left;
 }
@@ -622,3 +623,5 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto|Roboto+Condensed|Spectral+SC');
