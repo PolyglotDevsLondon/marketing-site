@@ -1,0 +1,20 @@
+.navBar {
+  float: right;
+
+  .navBarButtons {
+    margin: 20px;
+
+    a {
+      text-decoration: none;
+      padding: 10px 20px;
+    }
+
+    a:hover{
+      background-color: #eee;
+    }
+
+    .navButton {
+    }
+
+  }
+}
