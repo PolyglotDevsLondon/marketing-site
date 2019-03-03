@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Polyglot Devs',
+    description: 'Polyglot Devs marketing site build with Gatsby',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -10,6 +11,12 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
+    },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      }
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
