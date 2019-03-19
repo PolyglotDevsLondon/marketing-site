@@ -1,19 +1,14 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
+import './footer.css'
+
 const Footer = () => (
-  <div style={{
-    background: '#C9CBD7',
-    fontSize: '13px',
-    marginBottom: '0',
-    paddingTop: '2.5rem',
-    paddingBottom: '1.3rem',
-    paddingLeft: '2rem',
-    maxWidth: '1380px',
-  
-}}>
-<p>Footer</p>
-</div>
+  <div className="footer">
+    <div className="container">
+      <p>&copy; Polyglot Devs</p>
+    </div>
+  </div>
 )
 
 export default Footer
