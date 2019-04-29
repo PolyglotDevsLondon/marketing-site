@@ -8,9 +8,11 @@ import './about.css'
 
 const AboutPage = () => (
   <Layout>
-  <div className="about-container">
-    <h3>About Polyglot Devs London</h3>
-  </div>
+    <div className="about">
+      <div className="container">
+        <h3>About PolyglotDevs London</h3>
+      </div>
+    </div>
   </Layout>
 )
 
