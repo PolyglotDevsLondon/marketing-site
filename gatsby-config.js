@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Polyglot Devs',
-    description: 'Polyglot Devs marketing site build with Gatsby',
+    description: 'Polyglot Devs marketing site build with Gatsby'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -9,10 +9,15 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
-      },
+        path: `${__dirname}/src/images`
+      }
     },
-    
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`
+      }
+    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
@@ -24,11 +29,12 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
-      },
+        icon: 'src/images/gatsby-icon.png' // This path is relative to the root of the site.
+      }
     },
+    `gatsby-plugin-sass`
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
-  ],
+  ]
 }

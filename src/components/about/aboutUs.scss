@@ -1,0 +1,41 @@
+.about-us {
+ background-color: #eee;
+ margin: auto;
+ width: 1000px;
+ height: 400px;
+ > h1 {
+   text-align: center;
+   color: #529AED;
+ }
+ .people {
+  display: flex;
+  justify-content: center;
+   .person {
+     .profile-picture {
+       height: 200px;
+       width: 200px;
+
+       > img {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 50%;
+       }
+    }
+    .details {
+      margin-top: 20px;
+      text-align: center;
+      > p {
+        margin-bottom: 0;
+      }
+      > a {
+        color: #00aced
+      }
+      > a:first-of-type {
+        color: black;
+      }
+    }
+  }
+ }
+}

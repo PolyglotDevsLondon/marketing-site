@@ -1,19 +1,26 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React, { Component } from 'react'
+
 import Header from '../components/header'
 import Layout from '../components/layout'
+import AboutUs from '../components/about/aboutUs'
 
 import './about.css'
 
+class AboutPage extends Component {
+  state = {
 
-const AboutPage = () => (
-  <Layout>
-    <div className="about">
-      <div className="container">
-        <h3>About PolyglotDevs London</h3>
-      </div>
-    </div>
-  </Layout>
-)
+  }
+  render () {
+    return (
+      <Layout>
+        <div className='about-container'>
+          <h3>About Polyglot Devs London</h3>
+          <AboutUs />
+        </div>
+      </Layout>
+    )
+  }
+}
+
 
 export default AboutPage
