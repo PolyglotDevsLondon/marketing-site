@@ -1,0 +1,15 @@
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+    float: right;
+    font-family: Raleway;
+    font-size: 20px;
+    color: #16162C;
+}
+
+
+ul:hover {
+    color: #DBE9EE;
+  }

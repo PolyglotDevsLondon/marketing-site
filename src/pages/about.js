@@ -10,7 +10,6 @@ class AboutPage extends Component {
   state = {
 
   }
-
   render () {
     return (
       <Layout>
@@ -22,5 +21,6 @@ class AboutPage extends Component {
     )
   }
 }
+
 
 export default AboutPage
