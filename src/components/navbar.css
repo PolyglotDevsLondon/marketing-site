@@ -4,7 +4,8 @@ ul {
     justify-content: space-evenly;
     margin-top: 35px;
     float: right;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     font-size: 20px;
     color: #16162C;
 }
