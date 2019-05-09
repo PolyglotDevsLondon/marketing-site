@@ -6,7 +6,7 @@
 }
 
 .joinus-box h2 {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
@@ -19,7 +19,7 @@
     width: 330px;
     height: 115px;
     position: absolute;
-    margin-right: 175px;
+    margin-left: 175px;
     margin-top: 200px;
 
 }
@@ -39,6 +39,7 @@
     line-height: normal;
     font-size: 32px;
     color: #16162C;
+    margin-top: 55px;
 }
 
 .signup p {
@@ -69,10 +70,12 @@
     height: 477px;
     background: #F9F7FA;
     margin: 0 auto;
+    margin-top: 45px;
 }
 
 .contact-container h3 {
     padding-left: 12px;
+    padding-top: 10px;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;

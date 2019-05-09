@@ -31,7 +31,7 @@ template {
 
 body {
   margin: 0;
-  paddimg: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -540,4 +540,4 @@ pre tt:after {
   }
 }
 
-@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto|Roboto+Condensed|Spectral+SC');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Lobster|Roboto|Roboto+Condensed|Spectral+SC');
