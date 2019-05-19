@@ -1,16 +1,32 @@
-nav ul {
+  nav ul {
     list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 672px;
-    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #C0DAE9;
+    float: right;
+  }
+
+  nav ul li {
+    display: inline-block;
+  }
+
+  nav ul li a {
+    display: block;
+    color: #16162C;
+    text-align: center;
+    padding: 12px 26px;
+    text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 20px;
-    color: #16162C;
-}
 
- nav ul:hover {
-    color: #DBE9EE;
-    
+  }
+
+  nav ul li a:hover {
+    background-color: #AAC9DB;
+  }
+
+  @media screen and (max-width: 600px) {
+    nav ul {float: none;}
   }
