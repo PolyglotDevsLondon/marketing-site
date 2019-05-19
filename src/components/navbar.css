@@ -1,16 +1,16 @@
-ul {
+nav ul {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 35px;
-    float: right;
+    margin-left: 672px;
+    margin-bottom: 0;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 20px;
     color: #16162C;
 }
 
-
-ul:hover {
+ nav ul:hover {
     color: #DBE9EE;
+    
   }

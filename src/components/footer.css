@@ -1,9 +1,11 @@
 .footer {
     background: #529AED;
     font-size: 13px;
-    margin-bottom:0;
+    /* padding: 20px; */
     padding-top: 2.5rem;
     padding-bottom: 1.3rem;
-    padding-left: 2rem;
-    max-width: 1380px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }

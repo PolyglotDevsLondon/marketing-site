@@ -30,11 +30,12 @@ const Layout = ({ children }) => (
           meta={[
             { name: 'description', content: 'Polyglot Devs Marketing Site' },
             { name: 'keywords', content: 'polyglot, devs, marketing, site, react, gatsby' },
+            { name: 'viewport', content: 'width=device-width, initial-scale:1.0'},
           ]}
         >
           <html lang="en" />
         </Helmet> 
-        <Navbar />
+        
         <Header siteTitle={data.site.siteMetadata.title} />
        
         <div>
