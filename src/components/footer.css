@@ -1,11 +1,47 @@
 .footer {
     background: #529AED;
     font-size: 13px;
-    /* padding: 20px; */
-    padding-top: 2.5rem;
-    padding-bottom: 1.3rem;
+    padding-top: 1.5rem;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer-menu ul {
+    list-style: none;
+    margin: 0;
+}
+
+.footer-menu ul li {
+    display: inline-block;
+}
+
+.footer-menu ul li a {
+    display: block;
+    padding: 17px 13px;
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
     align-items: center;
+    text-align: center;
+
+}
+
+.twitter a {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    font-size: 12px;
+    line-height: 14px;
 }

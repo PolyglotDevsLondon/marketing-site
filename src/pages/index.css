@@ -1,9 +1,9 @@
 .main-content {
   background-color: #F2F2F2;
   display: flex;
-  height: 900px;
   flex-flow: row wrap;
   justify-content: space-around;
+  padding-bottom: 109px;
 }
 
 .students {

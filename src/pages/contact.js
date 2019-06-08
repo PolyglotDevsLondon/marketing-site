@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Navbar from '../components/navbar'
+import Layout from '../components/layout'
 import Footer from '../components/footer'
 
 import './contact.css'
@@ -8,7 +9,7 @@ import '../components/navbar.css'
 import '../components/footer.css'
 
 const ContactPage = () => (
-  <div>
+  <Layout>
     <div className="header2-container">
       <div className="navbar">
         <Navbar />
@@ -52,9 +53,7 @@ const ContactPage = () => (
         </form>
         </div>
     </div>
-    <Footer />
-  
-  </div>
+  </Layout>
   )
 
 export default ContactPage
