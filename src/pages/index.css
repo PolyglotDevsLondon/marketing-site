@@ -1,59 +1,75 @@
 .main-content {
+  background-color: #F2F2F2;
   display: flex;
-  max-width: 1024px;
-  height: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-bottom: 109px;
+}
+
+.students {
+  flex: 0 0 305.62px;
+  padding: 100px 10px 50px 10px;
 }
 
 .students h3{
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
-  line-height: normal;
+  font-size: 36px;
+  line-height: 42px;
   color: #16162C;
-  padding-top: 100px;
 }
 
 .students p {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
-  line-height: normal;
-  padding-right: 100px;
+  font-size: 18px;
+  line-height: 21px;
   color: #000;
 }
 
-.mentors-container {
-  width: 468px;
-  height: 550px;
+.students ul {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
+  list-style: none;
+  margin-left: 0;
+}
+
+.mentors {
+  flex: 0 0 428px;
+  height: 750px;
   background: #F9F7FA;
   margin-top: 60px;
+  padding-top: 2px;
+  padding-left: 37.9px;
 }
 
 .mentors h3 {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
-  line-height: normal;
+  font-size: 36px;
+  line-height: 42px;
   color: #529AED;
   padding-top: 39px;
-  padding-left: 25px;
-  margin: 0 auto;
 }
 
 .mentors p {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
-  line-height: normal;
+  font-size: 18px;
+  line-height: 21px;
   color: #000;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-top: 30px;
+  padding-right: 37.7px;
+}
+
+.mentors ul {
+  list-style: none;
+  margin-left: 0;
+  padding-right: 10px;
 }

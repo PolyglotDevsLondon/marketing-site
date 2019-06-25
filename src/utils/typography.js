@@ -9,9 +9,11 @@ const typography = new Typography({
     "Segoe UI",
     "Helvetica",
     "Arial",
+    "Roboto", 
+    "Raleway",
     "sans-serif",
   ],
-  bodyFontFamily: ["Georgia", "serif"],
+  bodyFontFamily: ["Roboto", "Raleway"],
 })
 
 export default typography

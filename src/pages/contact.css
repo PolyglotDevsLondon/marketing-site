@@ -1,61 +1,86 @@
-.header2 {
+.header2-container {
     width: 100%;
     height: 383px;
     background: #C0DAE9;
     margin: 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
 }
 
-.joinus-box h2 {
+.header-section-text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
-    line-height: normal;
+    font-size: 56px;
     text-decoration-line: underline;
+    line-height: normal;
     color: #16162C;
-    padding: 15px;
-    white-space: nowrap;
-    background: #F9F7FA;
-    width: 330px;
-    height: 115px;
-    position: absolute;
-    margin-left: 175px;
-    margin-top: 200px;
-
+    width: 623px;
+    padding-top: 36.5px;
+    padding-bottom: 20.5px;
+    padding-left: 22px;
 }
 
-.cp-content {
+.joinus-box {
+    background: #F9F7FA;
+    width: 368px;
+    height: 213px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 79px;
+}
+
+.main {
+    background-color: #F2F2F2;
     display: flex;
-    max-width: 1024px;
-    height: 956px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 1060px;
+}
+
+.signup {
+    flex: 0 0 400px;
+    padding: 100px 10px 50px 10px;
+}
 
 .signup h3 {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
-    line-height: normal;
-    font-size: 32px;
+    line-height: 42px;;
+    font-size: 36px;
     color: #16162C;
-    margin-top: 55px;
 }
 
 .signup p {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: normal;
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 16px;
     color: #000000;
-    padding-right: 80px;
+}
+
+.signup ul {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    list-style: none;
+    margin-left: 0;
+}
+
+.signup ul:hover {
+    color: #000000;
 }
 
 .signup-btn {
     width: 126px;
     height: 36px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: normal;
@@ -63,63 +88,72 @@
     text-decoration-line: underline;
     background: #529AED;
     color: #FFFFFF;
+    margin-top: 68px;
 }
 
 .contact-container {
-    width: 494px;
-    height: 477px;
+    flex: 0 0 408px;
+    height: 630px;
     background: #F9F7FA;
-    margin: 0 auto;
-    margin-top: 45px;
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-left: 43px;
 }
 
 .contact-container h3 {
-    padding-left: 12px;
-    padding-top: 10px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 36px;
     line-height: normal;
     color: #529AED;
 }
 
 #name {
-    width: 219px;
-    height: 54px;
+    width: 159px;
+    height: 43px;
     margin-top: 10px;
-    margin-left: 10px;
+    padding-left: 10px;
     background: #FFFFFF;
+    border: none;
+    color: rgb(150, 146, 146);
 }
 
 #email {
-    width: 219px;
-    height: 54px;
-    margin-left: 15px;
+    width: 159px;
+    height: 43px;
     background: #FFFFFF;
+    border: none;
+    margin-top: 20px;
+    padding-left: 10px;
+    color: rgb(150, 146, 146);
 }
 
 #placeholder {
-    width: 455px;
+    width: 317px;
     height: 205px;
     margin-top: 22px;
-    margin-left: 10px;
     background: #FFFFFF;
+    border: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: rgb(150, 146, 146);
 }
 
 #submit {
+    position: relative;
     width: 126px;
     height: 36px;
-    margin-left: 10px;
     margin-top: 14px;
     background: #529AED;
     color: #FFFFFF;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: normal;
     font-size: 18px;
-    text-decoration-line: underline;
-
+    text-decoration: underline;
 }
+
+
 
