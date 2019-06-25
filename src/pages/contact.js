@@ -1,24 +1,23 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Navbar from '../components/navbar'
+import Header from '../components/header'
 import Layout from '../components/layout'
-import Footer from '../components/footer'
 
 import './contact.css'
 import '../components/navbar.css'
-import '../components/footer.css'
+import '../components/header.css'
+import '../components/layout.css'
+
 
 const ContactPage = () => (
-  <Layout>
-    <div className="header2-container">
-      <div className="navbar">
-        <Navbar />
-      </div>
-      <div className="joinus-box">
-        <h2 className="header-section-text">Join us or get in touch to learn more</h2>
-      </div>
-    </div>
+  <div>
+  <div className="wrapper">
+  <Navbar />
+  <Header subTitle="Join us or get in touch to learn more" />
+  </div>
 
+  <Layout>
     <div className="main">
         <div className="signup">
           <h3>Sign up</h3>
@@ -54,6 +53,7 @@ const ContactPage = () => (
         </div>
     </div>
   </Layout>
+  </div>
   )
 
 export default ContactPage

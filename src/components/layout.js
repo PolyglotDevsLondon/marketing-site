@@ -3,13 +3,11 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, Link, graphql } from 'gatsby'
 
-import Header from './header'
-import Navbar from './navbar'
+
 import Footer from './footer'
 
 
 import './layout.css'
-import './header.css'
 
 
 const Layout = ({ children }) => (
@@ -36,7 +34,6 @@ const Layout = ({ children }) => (
           <html lang="en" />
         </Helmet> 
         
-        <Header siteTitle={data.site.siteMetadata.title} />
        
         <div>
           

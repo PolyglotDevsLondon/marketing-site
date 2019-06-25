@@ -7,18 +7,26 @@ import './header.css'
 import '../components/navbar.css'
 
 
-const Header = ({ siteTitle }) => (
-    <div className="header">
-      <div className="navbar">
-          <Navbar />
-      </div>
-      <div>
-        <h1 className="title">Polyglot Devs</h1>
-      </div>
-        <div className="box-container">
-          <h2 className="box-text">Regular coding meetup in London</h2>
+const Header = ({ subTitle, showTitle=false }) => {
+  if (showTitle){
+    return (
+      <div className="header">
+        <div>
+          <h1 className="title">Polyglot Devs</h1>
         </div>
+          <div className="box-container">
+            <h2 className="box-text">{subTitle}</h2>
+          </div>
+      </div>
+      )
+  }
+  return (
+    <div className="header">
+      <div className="box-container">
+        <h2 className="box-text">{subTitle}</h2>
+      </div>
     </div>
-)
+    )
+}
 
 export default Header

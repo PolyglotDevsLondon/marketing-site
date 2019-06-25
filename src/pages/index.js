@@ -1,14 +1,23 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import Navbar from '../components/navbar'
 import Header from '../components/header'
 import Layout from '../components/layout'
-import Navbar from '../components/navbar'
 import Image from '../components/image'
 
 import './index.css'
+import '../components/navbar.css'
+import '../components/header.css'
+import '../components/layout.css'
 
 
 const IndexPage = () => (
+  <div>
+  <div className="wrapper">
+  <Navbar />
+  <Header subTitle="Monthly coding meetup in London" showTitle={true} />
+  </div>
+  
   <Layout>
     <div className="main-content">
       <div className="students">
@@ -45,6 +54,8 @@ const IndexPage = () => (
       </div>
      </div>
   </Layout>
+  </div>
+  
 )
 
 export default IndexPage
