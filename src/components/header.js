@@ -7,15 +7,24 @@ import './header.css'
 import '../components/navbar.css'
 
 
-const Header = ({ subTitle }) => {
+const Header = ({ subTitle, showTitle=false }) => {
+  if (showTitle){
+    return (
+      <div className="header">
+        <div>
+          <h1 className="title">Polyglot Devs</h1>
+        </div>
+          <div className="box-container">
+            <h2 className="box-text">{subTitle}</h2>
+          </div>
+      </div>
+      )
+  }
   return (
     <div className="header">
-      <div>
-        <h1 className="title">Polyglot Devs</h1>
+      <div className="box-container">
+        <h2 className="box-text">{subTitle}</h2>
       </div>
-        <div className="box-container">
-          <h2 className="box-text">{subTitle}</h2>
-        </div>
     </div>
     )
 }

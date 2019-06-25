@@ -15,7 +15,7 @@ const IndexPage = () => (
   <div>
   <div className="wrapper">
   <Navbar />
-  <Header subTitle="Monthly coding meetup in London" />
+  <Header subTitle="Monthly coding meetup in London" showTitle={true} />
   </div>
   
   <Layout>
