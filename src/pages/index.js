@@ -7,7 +7,6 @@ import Image from '../components/image'
 
 import triangles from '../images/triangles.svg'
 import laptop from '../images/laptop.svg'
-// new one
 
 import './index.css'
 import '../components/navbar.css'
@@ -17,12 +16,12 @@ import '../components/layout.css'
 
 const IndexPage = () => (
   <div>
-  <div className="wrapper">
-  <Navbar />
-  <img id="triangles" src={triangles} />
-  <Header subTitle="Monthly coding meetup in London" showTitle={true} />
-  <img id="laptop" src={laptop} />
-  </div>
+    <div className="wrapper">
+      <Navbar />
+      <img id="triangles" src={triangles} />
+      <Header subTitle="Monthly coding meetup in London" showTitle={true} />
+      <img id="laptop" src={laptop} />
+    </div>
   
   <Layout>
     <div className="main-content">
