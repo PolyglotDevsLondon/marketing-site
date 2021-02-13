@@ -14,7 +14,7 @@ const ContactPage = () => (
   <div>
   <div className="wrapper">
   <Navbar />
-  <Header subTitle="Join us or get in touch to learn more" />
+  <Header subTitle={"Join us or get in touch \nto learn more"} />
   </div>
 
   <Layout>

@@ -1,4 +1,9 @@
 .about-container {
-    height: 600px;
     width: 100%;
+}
+
+@media all and (min-width: 768px) {
+    .about-container {
+        padding: 59px;
+    }
 }
