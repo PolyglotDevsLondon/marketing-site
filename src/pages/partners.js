@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import Navbar from '../components/navbar'
 import Header from '../components/header'
 import Layout from '../components/layout'
+import laptop from '../images/laptop.svg'
 
 import './partners.css'
 
@@ -31,8 +32,7 @@ const PartnersPage = () => (
             <button className="signup-btn" type="button">Get in touch</button></a>
           </div>
           </div>
-          <div className="laptop-image">
-          </div>
+          <img className="laptop-image" src={laptop} />
           <div className="partners-section">
             <h3>Our Partners</h3>
           </div>
