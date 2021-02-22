@@ -36,11 +36,10 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    height: 1060px;
 }
 
 .signup {
-    flex: 0 0 400px;
+    flex: 1;
     padding: 100px 10px 50px 10px;
 }
 
@@ -92,8 +91,7 @@
 }
 
 .contact-container {
-    flex: 0 0 408px;
-    height: 630px;
+    flex: 1;
     background: #F9F7FA;
     margin-top: 60px;
     padding-top: 40px;

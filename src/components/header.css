@@ -1,6 +1,5 @@
 .header {
   width: 100%;
-  height: 600px;
   background-color: #C0DAE9;
   display: flex;
   flex-flow: column wrap;
@@ -8,8 +7,12 @@
   padding: 10px;
 }
 
+.title-line {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
 .title {
-  width: 597px;
   font-family: Lobster, cursive;
   font-size: 110px;
   font-weight: normal;
@@ -18,7 +21,11 @@
   line-height: 137px;
   text-decoration: none;
   margin-top: 25px;
-  margin-left: 320px;
+}
+
+.subtitle-line {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .box-text {
@@ -29,16 +36,27 @@
   text-decoration-line: underline;
   line-height: 56px;
   color: #16162C;
-  width: 580px;
   padding-top: 26px;
   padding-bottom: 20.5px;
   padding-left: 53px;
 }
 
+.box-text {
+  width: 80vw;
+}
+
 .box-container {
   background: #F9F7FA;
   width: 424px;
-  height: 222px;
   margin-bottom: 83px;
-  margin-left: 82px;
+}
+
+@media all and (min-width: 768px) {
+  .box-container {
+    margin-left: 82px;
+  }
+}
+
+#laptop {
+   padding-left: 149px;
 }

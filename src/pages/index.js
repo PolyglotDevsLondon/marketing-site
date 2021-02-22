@@ -5,8 +5,6 @@ import Header from '../components/header'
 import Layout from '../components/layout'
 import Image from '../components/image'
 
-import triangles from '../images/triangles.svg'
-import laptop from '../images/laptop.svg'
 
 import './index.css'
 import '../components/navbar.css'
@@ -18,9 +16,7 @@ const IndexPage = () => (
   <div>
     <div className="wrapper">
       <Navbar />
-      <img id="triangles" src={triangles} />
-      <Header subTitle="Monthly coding meetup in London" showTitle={true} />
-      <img id="laptop" src={laptop} />
+      <Header subTitle={"Monthly coding meetup \nin London"} showTitle={true} />
     </div>
   
   <Layout>

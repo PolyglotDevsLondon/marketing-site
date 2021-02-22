@@ -74,10 +74,6 @@
   padding-right: 10px;
 }
 
-#triangles {
-  transform: translate(90px, 140px);
-}
-
-#laptop {
-  transform: translate(650px, -300px);
+.title {
+  display: inline;
 }
