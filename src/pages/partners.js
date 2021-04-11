@@ -33,9 +33,9 @@ const PartnersPage = () => (
           </div>
           </div>
           <img className="laptop-image" src={laptop} />
-          <div className="partners-section">
+          {/* <div className="partners-section">
             <h3>Our Partners</h3>
-          </div>
+          </div> */}
       </div>
       
     </Layout>
