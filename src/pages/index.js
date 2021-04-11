@@ -29,28 +29,22 @@ const IndexPage = () => (
           working on tutorials and playing with different tech before starting on your first ticket towards 
           our two projects:</p>
         <p><strong>Polyglot Devs website</strong></p>
-        <ul>
-          <li>&gt; React / Gatsby / JavaScript / CSS / HTML / Netlify;</li>
-          <li>&gt; Simple website to share our initiative with the world (ps. it is this website!);</li>
-        </ul>
+        <p>&gt; React / Gatsby / JavaScript / CSS / HTML / Netlify;</p>
+        <p>&gt; Simple website to share our initiative with the world (ps. it is this website!);</p>
         <p><strong>Sharespots web app</strong></p>
-        <ul>
-          <li>&gt; Python / Django / Sass / HTML / JavaScript / Heroku;</li>
-          <li>&gt; Co-working spaces in London listings app, curated by the PolyglotDevs London team 
-            complete with ratings and venue information.</li>
-        </ul>
+        <p>&gt; Python / Django / Sass / HTML / JavaScript / Heroku;</p>
+        <p>&gt; Co-working spaces in London listings app, curated by the PolyglotDevs London team 
+            complete with ratings and venue information.</p>
       </div>
       <div className="mentors">
         <h3>Mentors</h3>
         <p>We are always on a lookout for more mentors. Some mentors are even students at certain sessions 
         especially as some events may be a little quiet for a mentor if students are busy giving a go alone.</p>
         <p>If you are thinking of becoming a mentor but are not sure, please apply to mentor if:</p>
-        <ul>
-          <li>&gt; You are an experienced coder in any of the following: Python / Django / JavaScript / React / 
-            Sass / HTML;</li>
-          <li>&gt; You enjoy helping others and collaborating;</li>
-          <li>&gt; You are patient and don’t mind going over the same concept multiple times if needed;</li>
-        </ul>
+        <p>&gt; You are an experienced coder in any of the following: Python / Django / JavaScript / React / 
+          Sass / HTML;</p>
+        <p>&gt; You enjoy helping others and collaborating;</p>
+        <p>&gt; You are patient and don’t mind going over the same concept multiple times if needed;</p>
         <p>That is all! The rest can be picked up as we go along. If this sounds appealing please join us.</p>
       </div>
      </div>

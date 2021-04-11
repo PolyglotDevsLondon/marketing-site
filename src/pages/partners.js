@@ -22,11 +22,9 @@ const PartnersPage = () => (
             <h3>Venue</h3>
             <p>We are always on a look out for places to meet. If you think you can offer us a space please get in touch below.</p>
             <p>What do we need:</p>
-            <ul>
-              <li>&gt; Wi-Fi;</li>
-              <li>&gt; Tables to work;</li>
-              <li>&gt; Refreshments are always welcome!;</li>
-            </ul>
+            <p>&gt; Wi-Fi;</p>
+            <p>&gt; Tables to work;</p>
+            <p>&gt; Refreshments are always welcome!;</p>
           <div>
             <a href="https://lilianakastilio.typeform.com/to/MUBtwK" target="_blank">
             <button className="signup-btn" type="button">Get in touch</button></a>
