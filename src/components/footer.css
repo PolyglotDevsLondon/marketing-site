@@ -32,6 +32,10 @@
 
 }
 
+.footer a:hover {
+    background-color:rgba(47, 134, 233, 0.5);
+}
+
 .twitter a {
     margin: 0;
     padding: 0;
