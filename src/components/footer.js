@@ -14,7 +14,7 @@ const Footer = () => (
       </div>
       <h6>Created by Polyglot Devs London</h6>
       <div className="twitter">
-        <a href="https://twitter.com/devs_london" target="_blank"><p>@devs_london</p></a>
+        <a href="https://twitter.com/devs_london" target="_blank">@devs_london</a>
       </div>
   </div>
 )

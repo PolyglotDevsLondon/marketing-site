@@ -23,7 +23,7 @@
 .students p {
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   color: #000;
@@ -61,7 +61,7 @@
 .mentors p {
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   color: #000;
