@@ -7,6 +7,11 @@
   padding: 10px;
 }
 
+#triangles {
+  width: 25px;
+  height: 25px;
+}
+
 .title-line {
   text-align: center;
   padding-bottom: 25px;
@@ -23,32 +28,25 @@
   margin-top: 25px;
 }
 
-.subtitle-line {
-  display: flex;
-  flex-flow: row wrap;
-}
-
 .box-text {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 48px;
+  font-size: 24px;
   text-decoration-line: underline;
-  line-height: 56px;
+  line-height: 28px;
   color: #16162C;
-  padding-top: 26px;
-  padding-bottom: 20.5px;
-  padding-left: 53px;
-}
-
-.box-text {
-  width: 80vw;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 27px;
+  width: 300px;
 }
 
 .box-container {
   background: #F9F7FA;
-  width: 424px;
-  margin-bottom: 83px;
+  margin-bottom: 40px;
+  width: 158px;
+  height: 82px;
 }
 
 @media all and (min-width: 768px) {
@@ -58,7 +56,10 @@
 }
 
 #laptop {
-   padding-left: 149px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 @media screen and (min-width: 768px) {
