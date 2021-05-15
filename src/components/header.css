@@ -66,6 +66,32 @@
   .title {
     font-size: 96px;
   }
+
+  .title-line {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .box-text {
+    font-size: 48px;
+    line-height: 56px;
+    width: 600px;
+    padding-top: 55px;
+    padding-left: 55px;
+    padding-bottom: 55px;
+  }
+
+  #triangles {
+    width: 27px;
+    height: 38px;
+    margin-right: 10px;
+    margin-bottom: 45px;
+  }
+
+  .box-container {
+    width: 340px;
+    height: 222px;
+  }
 }
 
 @media screen and (min-width: 1023px) {

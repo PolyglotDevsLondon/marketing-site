@@ -34,3 +34,10 @@
   @media screen and (max-width: 600px) {
     nav ul {float: none;}
   }
+
+  @media screen and (min-width: 768px) {
+    nav ul li a {
+      font-size: 24px;
+      padding: 12px 26px;
+    }
+  }
