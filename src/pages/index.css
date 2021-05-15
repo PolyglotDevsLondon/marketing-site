@@ -15,25 +15,21 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 24px;
   line-height: 42px;
   color: #16162C;
 }
 
 .mentors {
-  flex: 0 0 428px;
-  height: 750px;
   background: #F9F7FA;
-  margin-top: 60px;
-  padding-top: 2px;
-  padding-left: 37.9px;
+  padding: 38px 37px 60px 37px;
 }
 
 .mentors h3 {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 24px;
   line-height: 42px;
   color: #529AED;
   padding-top: 39px;
