@@ -20,25 +20,6 @@
   color: #16162C;
 }
 
-.students p {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #000;
-}
-
-.students ul {
-  font-family: "Roboto";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 21px;
-  list-style: none;
-  margin-left: 0;
-}
-
 .mentors {
   flex: 0 0 428px;
   height: 750px;
@@ -56,22 +37,6 @@
   line-height: 42px;
   color: #529AED;
   padding-top: 39px;
-}
-
-.mentors p {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #000;
-  padding-right: 37.7px;
-}
-
-.mentors ul {
-  list-style: none;
-  margin-left: 0;
-  padding-right: 10px;
 }
 
 .title {

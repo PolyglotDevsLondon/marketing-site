@@ -52,30 +52,6 @@
     color: #16162C;
 }
 
-.signup p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    font-size: 14px;
-    line-height: 16px;
-    color: #000000;
-}
-
-.signup ul {
-    font-family: "Roboto";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 16px;
-    list-style: none;
-    margin-left: 0;
-}
-
-.signup ul:hover {
-    color: #000000;
-}
-
 .signup-btn {
     width: 126px;
     height: 36px;

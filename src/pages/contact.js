@@ -22,13 +22,11 @@ const ContactPage = () => (
         <div className="signup">
           <h3>Sign up</h3>
           <p>Very glad you are thinking of joining us! Please have a read of a few important details before you sing up:</p>
-          <ul>
-            <li>&gt; we are based in London, UK;</li>
-            <li>&gt; we meet in person every month, sometimes more;</li>
-            <li>&gt; we communicate via Slack in between meet-ups;</li>
-            <li>&gt; all new sign-ups are required to agree with our code of conduct before attending an event;</li>
-            <li>&gt; you will need to have a laptop to bring with you to events.</li>
-          </ul>
+          <p>&gt; we are based in London, UK;</p>
+          <p>&gt; we meet in person every month, sometimes more;</p>
+          <p>&gt; we communicate via Slack in between meet-ups;</p>
+          <p>&gt; all new sign-ups are required to agree with our code of conduct before attending an event;</p>
+          <p>&gt; you will need to have a laptop to bring with you to events.</p>
           <p>Please fill out the form and follow the onboarding via Slack, come say hello once you signed up in the #general channel, 
           looking forward to seeing you there.</p>
           <div>

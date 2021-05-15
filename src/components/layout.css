@@ -293,6 +293,7 @@ dd {
 }
 p {
   font-family: "Roboto";
+  font-size: 14px;
   font-weight: 400;
   color: #000;
   margin-left: 0;
@@ -531,9 +532,13 @@ pre tt:after {
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
-    
   }
+}
 
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 18px;
+  }
 }
 
 @import url('https://fonts.googleapis.com/css?family=Raleway|Lobster|Roboto|Roboto+Condensed|Spectral+SC');
