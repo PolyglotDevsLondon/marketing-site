@@ -14,7 +14,7 @@
 
 .title {
   font-family: Lobster, cursive;
-  font-size: 110px;
+  font-size: 48px;
   font-weight: normal;
   font-style: normal;
   color: #FFF;
@@ -59,4 +59,16 @@
 
 #laptop {
    padding-left: 149px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 96px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .title {
+    font-size: 110px;
+  }
 }
